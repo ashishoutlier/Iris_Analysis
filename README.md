@@ -1,5 +1,7 @@
 # Iris: Visualization and Classification Experiments
 
+[Explore the interactive website](https://ashishoutlier.github.io/Iris_Analysis/). Website source and local setup are in [`website`](website/README.md).
+
 Two learning notebooks explore sepal and petal measurements, compare species visually, and introduce classification models. The extended notebook also contains an unfinished DBSCAN experiment.
 
 ## Choose a notebook
