@@ -9,7 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "start": "vinext dev",
-    "lint": "oxlint",
+    "lint": "oxlint app lib/study.mjs scripts",
     "format": "oxfmt",
     "test": "node --test lib/*.test.mjs scripts/*.test.mjs"
   },

@@ -41,3 +41,5 @@ GitHub Pages serves `dist/pages` from the `gh-pages` branch. The export preparat
 Tests cover species filtering, selected means, missing values, empty selections, and exported asset locations. Static rendering and referenced assets were checked. Visual browser review was unavailable in the working environment.
 
 Public Sans is included locally with its OFL notice in `public/fonts`. The application uses React, TypeScript, Vinext, and the retained Sites component library. GitHub Pages provides the public deployment because the Sites hosting service returned a deployment error during this work.
+
+Lint checks the authored application and scripts. The page keeps full document navigation for its relative homepage link. SVG charts retain their accessible image roles. The corresponding framework style rules are disabled only for the page where they conflict with these choices.

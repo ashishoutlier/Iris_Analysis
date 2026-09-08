@@ -52,5 +52,16 @@
     "typescript/no-require-imports": "error",
     "typescript/no-unnecessary-type-constraint": "error",
     "typescript/no-unsafe-function-type": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "app/page.tsx"
+      ],
+      "rules": {
+        "nextjs/no-html-link-for-pages": "off",
+        "jsx-a11y/prefer-tag-over-role": "off"
+      }
+    }
+  ]
 }
